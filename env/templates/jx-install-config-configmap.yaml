@@ -1,0 +1,39 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIExzCCAq+gAwIBAgIQDmJB162Ha6erYUt8bGHk/zANBgkqhkiG9w0BAQsFADAN
+    MQswCQYDVQQDEwJjYTAeFw0xOTExMTkyMjAxMTRaFw00OTExMTEyMjExMTRaMA0x
+    CzAJBgNVBAMTAmNhMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqgQi
+    KI+R32NlNwK1TmqlyaR1+HX3eDswgnWxK+IskKsw7q7DfOd2T9bJjgsmGWjniMD0
+    T9GdEiWFZrgQB1fSP7C1h+EDutlIv2/TpAFnzvq4B20ud/IH3AmIXBCp3vgPHm1I
+    0lQKNpdNbCuu5vAm/1YrL/R0855J4I0kIjo9GhBymPxw5FsqS1ra4JfGmrWUT4xu
+    hKj8qo/melOiXhE+tuXq6eH8gGq6lfMjfNv8s9NnBIgj+piy3f75cHQhHCyxdbX2
+    XNmKOZcq6WMS7sY8BVpvH69dhx1GwWz6E7wxvjCF7k6xAJnobzCEX/aNi1DyauXK
+    ZY3n6Jh/2GaFInvvt5B6yyJ7iA+oaNwe+Yjcw6eX9LUbuX2p0Jr50UN68hM7P/jv
+    fPK9Ri45p31XCyqw5pf5/1XKGsVTExhS+CpI/ZGJopoiwiXG+CR1KxPBKzU5pJb9
+    TgkWw9b0fj0rcTCxRtT5MW+PbcBd0yh/yqv9LcY6xEprZEC3cezMHnL7oqj70I/i
+    SlhKqagxph3rQNoSRDu1csiio/9B27s6920INOOYNR7MgWFnCLk4TSn09I4Zz+Vz
+    0xdCMc54FpiAmyR+UGcigd1FQAsbx39ri34wiTc4dys6oG7oTu9IBNYF6tdOKhdm
+    87icqgJ+YQMhOsJ+QQc+bsfNYsYkYlv+fv9hQi8CAwEAAaMjMCEwDgYDVR0PAQH/
+    BAQDAgKkMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAKVzJvjN
+    /ajskf83ob0fSPwLgQsVxHSHXpWYSAF89jPwIZuuHUiFcR+/sVuvuE6MVUeA+f/p
+    wNgkNMGSUbEspVXDkGPuYdql1+nNfAcUCpNq6/r29aQ1ZQFs0GWRPD4Y/ezjugxT
+    /HAKhq7fQld/psSfcEqwZh3YCKmWTkgZ+YQeMqfzHiAyI96S8KteRyylw6kyD9t9
+    Fv6dogcuI0QgVP/d/q3Y69jNT7xCFjlx0AWAcszHrsWtfp8ew1tp4+IhWz0gHjj7
+    woz6T/HcJwD/wuTZc8cCyvbPdN4KFP59NxdnK8z9cYLA2I6ibZHztfmtS8uGuJIk
+    Q5fHtn68QhpKY0Tf2Yy5bII5C7eheHFoT2rzoBznq+6l9XOkf0DT/9jZm9BlFa0a
+    kZfKd5z6vl/9NbPWIyYI2N+Ako73XjUYqbqGgHQeC1tIQWtXPcVwyERN3kZRDtOZ
+    zJKTWSjJsj5ClaOqRlCzpCBOnOydUvQ/1xYcyVG6+qctj8MFbuQjlWOvanxxKZ+C
+    BMY7I/a2GA5xDbfm9Suhv8ZheDzPCvPBvU2iPv02GlCiCHsBTFg0KHimX4CVeamF
+    BjTM0oVcPmXwlo6oSJwyYdXq+YYB1QgzslPNa0uvbzGyIyoiWHE9QlRLfXMIsJhU
+    CnpBjkOewfvX/cBnmtYFh2u2KjlHkYdsVIYy
+    -----END CERTIFICATE-----
+  jx-install-version: 2.0.973
+  kubeProvider: aks
+  secretsLocation: local
+  server: https://jxaksdemo2-jx-example-67065a-9d6d688d.hcp.eastus.azmk8s.io:443
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
